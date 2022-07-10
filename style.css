@@ -1,0 +1,46 @@
+#home{
+    height: 100vh;
+}
+#skills{
+    height: 100vh;
+    padding-top: 70px;
+}
+#projects{
+    height: 100vh;
+    padding-top: 70px;
+}
+#certificates{
+    height: 100vh;
+    padding-top: 70px;
+}
+#blogs{
+    height: 100vh;
+    padding-top: 70px;
+}
+#contact{
+    height: 100vh;
+    padding-top: 70px;
+}
+#body-left{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+#body-mid{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+}
+#body-right{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+p.nav-heading-text{
+    font-family:"Roboto";
+    font-size: 45px;
+}
+.orText{
+    font-family:"Roboto";
+    font-size: 25px;
+}

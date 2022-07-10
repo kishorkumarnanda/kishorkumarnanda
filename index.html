@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Kishor Kumar Nanda</title>
+</head>
+<body id="body">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" >
+        <div class="container-fluid">
+            <a class="navbar-brand h2" href="#">Portfolio</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#body">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Project</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#certificates">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blogs">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>    
+    </nav>
+    <!-- Body -->
+    <!-- Body First Part -->
+    <div class="container-fluid d-flex justify-content-center align-items-center" id="home">
+        <div class="row">
+            <div class="col-2" id="body-left">
+                <div class="row d-grid gap-3 mx-1 my-4">
+                    <div class="col text-center">
+                        <img src="https://www.freeiconspng.com/uploads/linkedin-logo-3.png" alt="linked-in" style="width: 30px;height: 30px;">
+                    </div>
+                    <div class="col text-center">
+                        <img src="https://www.freeiconspng.com/uploads/github-logo-icon-5.png" alt="github" style="width: 30px;height: 30px;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-5" id="body-mid">
+                <div class="container" style="margin-top: 10%;">
+                    <p class="h1">Hi, I'm Kishor</p>
+                    <span>
+                        <div>
+                            <p class="h4">Data Scientist</p>
+                        </div>
+                    </span>
+                    <div>
+                        <p>High level experience in Machine Learning and production knowledge, producing quality work.</p>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg mx-1">Download CV</button>
+                </div>
+            </div>
+            <div class="col-5" id="body-right">
+                <div class="container">
+                    <img src="assets/pngwing.com.png" alt="profile_picture" style="width: 250px;height: 250px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Body Skills -->
+    <!-- done -->
+    <div class="container" id="skills">
+        <div class="text-center pt-3">
+            <p class="h2 nav-heading-text">Skills</p>
+        </div>
+        <div class="container my-5 card">
+            <nav>
+                <div class="nav nav-tabs card-header" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-language-tab" data-bs-toggle="tab" data-bs-target="#nav-language" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                        Languages
+                    </button>
+                    <button class="nav-link" id="nav-frameworks-tab" data-bs-toggle="tab" data-bs-target="#nav-frameworks" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                        Frameworks
+                    </button>
+                    <button class="nav-link" id="nav-libraries-tab" data-bs-toggle="tab" data-bs-target="#nav-libraries" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+                        Libraries
+                    </button>
+                    <button class="nav-link" id="nav-tools-tab" data-bs-toggle="tab" data-bs-target="#nav-tools" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+                        Tools
+                    </button>
+                </div>
+            </nav>
+            <div class="tab-content card-body" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-language" role="tabpanel" aria-labelledby="nav-language-tab">
+                    <div class="col">
+                        <div class="row py-3">
+                            <p class="card-title">Python</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:75%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75">75%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">SQL</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:65%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65">65%</div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-frameworks" role="tabpanel" aria-labelledby="nav-frameworks-tab">
+                    <div class="col">
+                        <div class="row py-3">
+                            <p class="card-title">Tensorflow</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:75%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75">75%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">PyTorch</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:85%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">85%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">Keras</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:65%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65">65%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">Scikit-Learn</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:90%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">90%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">Hugging Face</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:70%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70">70%</div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-libraries" role="tabpanel" aria-labelledby="nav-libraries-tab">
+                    <div class="col">
+                        <div class="row py-3">
+                            <p class="card-title">Numpy</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:85%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">85%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">Matplotlib</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:80%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">80%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">Pandas</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:90%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">90%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">Scipy</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:65%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65">65%</div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-tools" role="tabpanel" aria-labelledby="nav-tools-tab">
+                    <div class="col">
+                        <div class="row py-3">
+                            <p class="card-title">Jupiter Notebook</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:85%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">85%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">Microsoft Excel</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:75%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75">75%</div>
+                            </div>    
+                        </div>
+                        <div class="row pb-3">
+                            <p class="card-title">Tableau</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:65%;" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65">65%</div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- Body Project -->
+    <div class="container" id="projects">
+        <div class="text-center pb-3">
+            <p class="h2 nav-heading-text">Projects</p>
+        </div>
+        <div class="container row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Project Name</p>
+                        <p class="card-text">Project Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Project Name</p>
+                        <p class="card-text">Project Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Project Name</p>
+                        <p class="card-text">Project Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Project Name</p>
+                        <p class="card-text">Project Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Project Name</p>
+                        <p class="card-text">Project Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Project Name</p>
+                        <p class="card-text">Project Description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Body Certificates -->
+    <div class="container" id="certificates">
+        <div class="text-center pb-3">
+            <p class="h2 nav-heading-text">Certificates</p>
+        </div>
+        <div class="container row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <!-- <img src="" class="card-img-top" alt="certificate alt image"> -->
+                    <div class="card-body">
+                        <p class="h4 card-title">Certificate Name</p>
+                        <p class="card-text">Certificate Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Certificate Name</p>
+                        <p class="card-text">Certificate Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Certificate Name</p>
+                        <p class="card-text">Certificate Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Certificate Name</p>
+                        <p class="card-text">Certificate Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Certificate Name</p>
+                        <p class="card-text">Certificate Description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="h4 card-title">Certificate Name</p>
+                        <p class="card-text">Certificate Description</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Body Blogs -->
+    <div class="container" id="blogs">
+        <div class="text-center pb-3">
+            <p class="h2 nav-heading-text">Blogs</p>
+        </div>
+        <div class="container col">
+            <div class="row">
+                <div class="card boarder-secondary mb-3" style="max-width: 100vw;">
+                    <div class="card-body text-secondary">
+                        <p class="h4">Blog 1</p>
+                        <p class="card-text">Blog description</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="card boarder-secondary mb-3" style="max-width: 100vw;">
+                    <div class="card-body text-secondary">
+                        <p class="h4">Blog 1</p>
+                        <p class="card-text">Blog description</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="card boarder-secondary mb-3" style="max-width: 100vw;">
+                    <div class="card-body text-secondary">
+                        <p class="h4">Blog 1</p>
+                        <p class="card-text">Blog description</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="card boarder-secondary mb-3" style="max-width: 100vw;">
+                    <div class="card-body text-secondary">
+                        <p class="h4">Blog 1</p>
+                        <p class="card-text">Blog description</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="row">
+                <div class="card boarder-secondary mb-3" style="max-width: 100vw;">
+                    <div class="card-body text-secondary">
+                        <p class="h4">Blog 1</p>
+                        <p class="card-text">Blog description</p>
+                    </div>
+                </div>    
+            </div>
+            
+        </div>
+    </div>
+    <!-- Body Contact -->
+    <div class="container" id="contact">
+        <div class="text-center">
+            <p class="h2 nav-heading-text">Contact Me</p>
+        </div>
+        <div class="container">
+            <div class="card p-3">
+                <div class="container d-flex justify-content-center row">
+                    <div class="col-4 text-end">
+                        <img src="https://www.freeiconspng.com/uploads/linkedin-logo-3.png" alt="linked-in" style="width: 30px;height: 30px;">
+                    </div>
+                    <div class="col-4 text-center">
+                        <img src="https://www.freeiconspng.com/uploads/github-logo-icon-5.png" alt="github" style="width: 30px;height: 30px;">
+                    </div>
+                    <div class="col-4 text-start">
+                        <img src="https://www.freeiconspng.com/uploads/gmail-icon-0.png" alt="gmail" style="width: 30px;height: 30px;">
+                    </div>
+                </div>
+                <p class="py-3 text-center orText">or</p>
+                <!-- <div class="ui horizontal divider">
+                    Or
+                </div> -->
+                <form action="...">
+                    <div class="mb-3">
+                        <label for="insertName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="insertName" aria-describedby="nameInsertion">
+                    </div>
+                    <div class="mb-3">
+                        <label for="insertEmail" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="insertEmail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="insertMessage" class="form-label">Message </label>
+                        <textarea name="enter_message" id="message_from_user" cols="30" rows="5" class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <!-- Custom Javascript Code -->
+    <script src="script.js"></script>
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
